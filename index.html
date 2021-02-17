@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Font Awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- Custom css file -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Responsive css file -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <!-- ======================= Header ======================= -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img class="navbar-img" src="./img/logo.png" alt="" height="50" width="200"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ======================= Header ======================= -->
+
+    <!-- ======================= Main ======================= -->
+
+    <main class="site-main">
+
+        <!--  ======================= Banner =======================  -->
+        <section id="home" class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hi!</h3>
+                        <h1 class="title-text text-uppercase">I'm Macarena Pomerantz</h1>
+                        <h4 class="title-text text-uppercase">Software Developer</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button onclick="location.href='#contact'" type="button" class="btn button primary-button mr-4 text-uppercase">Contact me</button>
+                                <button onclick="window.open('./docs/MACARENA POMERANTZ.pdf')" type="button" class="btn button secondary-button text-uppercase">Download my CV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/banner.JPG" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= Banner =======================  -->
+
+        <!--  ========================= About ==========================  -->
+
+        <section id="about" class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/about.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>About me</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                My name is Macarena but most people call me Mac, Maca or Maqui. I am a proud dog mom of my
+                                havanesse puppy, Luki. I'm both passionete about Product Design and Development.
+                            </p>
+                            <p class="para">
+                                I am a student on my last year of IT Engineering currently working as a Software Developer
+                                for an IT Software Company in Buenos Aires, Argentina. Although i haven´t finished my studies 
+                                yet, I am constantly making courses and capacitations to be up to date with the new technologies.
+                                I write code, i will not fix your computer :) 
+                            </p>
+                        </div>
+                        <button onclick="window.open('./docs/MACARENA POMERANTZ.pdf')" type="button" class="btn button primary-button text-uppercase">Download my cv</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ========================= About ==========================  -->
+
+        <!--  ======================= Projects =============================  -->
+
+        <section id="projects" class="project-area">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1">My Project Demos</h1>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link">
+                                    <img src="./img/netdemy.png" alt="Netdemy" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Netdemy</h4>
+                                <span class="text-secondary">Product Manager Course -</span>
+                                <span class="text-secondary">Product Management Design of Desktop App</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link">
+                                    <img src="./img/institutoglm.png" alt="Instituto GLM" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Instituto GLM</h4>
+                                <span class="text-secondary">University Project</span>
+                                <span class="text-secondary">made with MERN Stack - Responsive Desktop App</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" >
+                                    <img src="./img/appointment.jpg" alt="Appointment" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Appointment</h4>
+                                <span class="text-secondary">University Project</span>
+                                <span class="text-secondary">made with MERN Stack - Native Mobile App</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link">
+                                    <img src="./img/teachme.png" alt="TeachMe!" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">TeachMe!</h4>
+                                <span class="text-secondary">UX/UI Design Course -</span>
+                                <span class="text-secondary"> UX/UI Product Design of Mobile App</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= Projects =============================  -->
+
+        <!--  ========================== Contact ============================  -->
+        <section id="contact" class="subscribe-us-area">
+            <div class="container subscribe">
+                <div class="row">
+                    <div class="col-lg-12 text-center subscribe-title">
+                        <h4 class="text-uppercase">Get in touch with me!</h4>
+                    </div>
+                </div>
+                <div class="d-sm-flex justify-content-center">
+                    <form class="w-50 form-inline" action="mailto:macarenapomerantz@gmail.com?subject=portfolioContact" >
+                        <div class="row d-flex mt-3">
+                            <div class="col input-textbox">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="text" id="txt" class="form-control" placeholder="Your name">
+                            </div>
+                        </div>
+                        <div class="col input-textbox mt-3">
+                            <label for="exampleFormControlInput1" class="form-label">Your message</label>
+                            <textarea class="form-control" id="txt" rows="3"></textarea>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="btn-submit">
+                                <button type="submit" class="btn button secondary-button">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--  ========================== Contact ============================  -->
+
+
+    </main>
+
+    <!-- ======================= Main ======================= -->
+    <!-- ======================= Footer ======================= -->
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="#home"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow me</h5>
+                    <a href="https://www.linkedin.com/in/macarena-pomerantz"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/codingmacandcheese"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Copyright ©2021 All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================= Footer ======================= -->
+
+    <!-- JQuery js file -->
+    <script src="./js/jquery.3.5.1.js"></script>
+
+    <!-- Bootstrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
